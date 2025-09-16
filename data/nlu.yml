@@ -1,0 +1,73 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - hey there
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - talk to you later
+    - catch you later
+
+- intent: dengue
+  examples: |
+    - tell me about dengue
+    - what is dengue
+    - dengue details
+    - info about dengue
+    - I want to know about dengue
+
+- intent: malaria
+  examples: |
+    - tell me about malaria
+    - what is malaria
+    - malaria details
+    - info about malaria
+    - I want to know about malaria
+
+- intent: measles
+  examples: |
+    - tell me about measles
+    - what is measles
+    - measles details
+    - info about measles
+    - I want to know about measles
+
+- intent: fever
+  examples: |
+    - tell me about fever
+    - what is fever
+    - fever details
+    - info about fever
+    - I want to know about fever
+
+- intent: headache
+  examples: |
+    - tell me about headache
+    - what is headache
+    - headache details
+    - info about headache
+    - I want to know about headache
+
+- intent: ask_symptoms
+  examples: |
+    - what are the symptoms
+    - tell me the symptoms
+    - how do I know if I have it
+    - what are the signs
+
+- intent: ask_prevention
+  examples: |
+    - how to prevent it
+    - prevention methods
+    - how can I avoid it
+    - how to stop it from spreading

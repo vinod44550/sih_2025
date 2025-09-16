@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+- story: greet and dengue info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: dengue
+    - action: utter_dengue
+    - intent: ask_symptoms
+    - action: utter_dengue_symptoms
+    - intent: ask_prevention
+    - action: utter_dengue_prevention
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: greet and malaria info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: malaria
+    - action: utter_malaria
+    - intent: ask_symptoms
+    - action: utter_malaria_symptoms
+    - intent: ask_prevention
+    - action: utter_malaria_prevention
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: greet and measles info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: measles
+    - action: utter_measles
+    - intent: ask_symptoms
+    - action: utter_measles_symptoms
+    - intent: ask_prevention
+    - action: utter_measles_prevention
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: greet and fever info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: fever
+    - action: utter_fever
+    - intent: ask_symptoms
+    - action: utter_fever_symptoms
+    - intent: ask_prevention
+    - action: utter_fever_prevention
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: greet and headache info
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: headache
+    - action: utter_headache
+    - intent: ask_symptoms
+    - action: utter_headache_symptoms
+    - intent: ask_prevention
+    - action: utter_headache_prevention
+    - intent: goodbye
+    - action: utter_goodbye
