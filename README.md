@@ -5,4 +5,25 @@ The chatbot provides basic health information such as:<br>
 .Common disease symptoms<br>
 .Vaccination reminders<br><br>
 
-Currently, it is a prototype, showing the feasibility of a multilingual chatbot.
+Currently, it is a prototype, showing the feasibility of a multilingual chatbot.<br>
+
+
+
+User (WhatsApp/SMS)
+        |
+        v
+   Twilio API
+        |
+        v
+   Rasa NLU (IndicBERT) ---> Intent Classification
+        |
+        v
+   Rasa Core (Dialogue Mgmt)
+        |
+        v
+   Responses (Static Info)
+        |
+        v
+User receives trusted info
+
+
