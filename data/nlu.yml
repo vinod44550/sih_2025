@@ -1,0 +1,164 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: weather
+  examples: |
+    - what is the weather
+    - tell me today's weather
+    - how's the weather outside
+    - is it raining today
+    - do I need an umbrella
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: dengue
+  examples: |
+    - what are the symptoms of dengue
+    - tell me about dengue
+    - how do I know if I have dengue
+    - what causes dengue
+    - signs of dengue fever
+    - is dengue spread by mosquitoes
+    - what are preventive measures for dengue
+    - how to protect from dengue
+    - does dengue cause high fever
+    - treatment for dengue
+
+- intent: malaria
+  examples: |
+    - what are the symptoms of malaria
+    - tell me about malaria
+    - how do I know if I have malaria
+    - what causes malaria
+    - signs of malaria fever
+    - is malaria spread by mosquitoes
+    - what are preventive measures for malaria
+    - how to protect from malaria
+    - does malaria cause chills
+    - treatment for malaria
+
+- intent: measles
+  examples: |
+    - what are the symptoms of measles
+    - tell me about measles
+    - how do I know if I have measles
+    - what causes measles
+    - signs of measles
+    - is measles contagious
+    - what are preventive measures for measles
+    - how to protect from measles
+    - does measles cause rashes
+    - treatment for measles
+
+- intent: fever
+  examples: |
+    - what are the symptoms of fever
+    - tell me about fever
+    - how do I know if I have fever
+    - what causes fever
+    - signs of fever
+    - is fever dangerous
+    - what are preventive measures for fever
+    - how to reduce fever
+    - does fever cause weakness
+    - treatment for fever
+
+- intent: headache
+  examples: |
+    - what are the symptoms of headache
+    - tell me about headache
+    - how do I know if I have a headache
+    - what causes headache
+    - signs of headache
+    - is headache serious
+    - what are preventive measures for headache
+    - how to reduce headache
+    - does headache come with fever
+    - treatment for headache
