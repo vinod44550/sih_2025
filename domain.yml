@@ -1,0 +1,70 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - dengue
+  - malaria
+  - measles
+  - fever
+  - headache
+  - ask_symptoms
+  - ask_prevention
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_goodbye:
+    - text: "Goodbye! Take care of your health."
+
+  utter_dengue:
+    - text: "Dengue is a mosquito-borne viral infection caused by Aedes mosquitoes."
+
+  utter_dengue_symptoms:
+    - text: "Common dengue symptoms include high fever, headache, pain behind eyes, muscle and joint pain, and skin rash."
+
+  utter_dengue_prevention:
+    - text: "Prevent dengue by avoiding mosquito bites, using repellents, and eliminating stagnant water."
+
+  utter_malaria:
+    - text: "Malaria is a disease caused by Plasmodium parasites transmitted through mosquito bites."
+
+  utter_malaria_symptoms:
+    - text: "Symptoms of malaria include fever, chills, headache, nausea, and sweating."
+
+  utter_malaria_prevention:
+    - text: "Prevent malaria by sleeping under mosquito nets and using anti-malarial drugs if prescribed."
+
+  utter_measles:
+    - text: "Measles is a highly contagious viral disease that mainly affects children."
+
+  utter_measles_symptoms:
+    - text: "Measles symptoms include high fever, cough, runny nose, red eyes, and a red rash."
+
+  utter_measles_prevention:
+    - text: "Measles can be prevented with the MMR vaccine and good hygiene practices."
+
+  utter_fever:
+    - text: "Fever is a temporary rise in body temperature, often due to an infection."
+
+  utter_fever_symptoms:
+    - text: "Fever symptoms include high temperature, sweating, chills, dehydration, and weakness."
+
+  utter_fever_prevention:
+    - text: "Prevent fever by maintaining hygiene, staying hydrated, and avoiding infections."
+
+  utter_headache:
+    - text: "Headache is a pain in the head region that can be caused by stress, dehydration, or medical conditions."
+
+  utter_headache_symptoms:
+    - text: "Symptoms of headache include throbbing pain, sensitivity to light, nausea, or dizziness."
+
+  utter_headache_prevention:
+    - text: "Prevent headaches by staying hydrated, reducing stress, and maintaining regular sleep."
+
+  utter_iamabot:
+    - text: "I am a medical info bot, here to help you with information about diseases and prevention tips."
+
+
+
