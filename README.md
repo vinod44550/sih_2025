@@ -9,21 +9,21 @@ Currently, it is a prototype, showing the feasibility of a multilingual chatbot.
 
 
 
-User (WhatsApp/SMS)
-        |
-        v
-   Twilio API
-        |
-        v
-   Rasa NLU (IndicBERT) ---> Intent Classification
-        |
-        v
-   Rasa Core (Dialogue Mgmt)
-        |
-        v
-   Responses (Static Info)
-        |
-        v
-User receives trusted info
+User (WhatsApp/SMS)<br>
+        |<br>
+        v<br>
+   Twilio API<br>
+        |<br>
+        v<br>
+   Rasa NLU (IndicBERT) ---> Intent Classification<br>
+        |<br>
+        v<br>
+   Rasa Core (Dialogue Mgmt)<br>
+        |<br>
+        v<br>
+   Responses (Static Info)<br>
+        |<br>
+        v<br>
+User receives trusted info<br>
 
 
